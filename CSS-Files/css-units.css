@@ -1,0 +1,36 @@
+body{
+    margin:0;
+}
+p{
+   font-size:2em; 
+   padding: 10px 20px 40px 10px;
+   /*border-color:red;
+   border-width: 5px;
+   border-style:solid;
+   /*border: blue 5px dotted;*/
+   /* border-top:red 5px double;
+   border-right:black 10px solid; */
+   /*margin-top:20px;
+   margin-bottom:30px;
+   margin-left:20px;
+   margin-right:10px;*/
+   /* margin: 10px 30px 40px 75px; */ 
+   /* width:100px;
+   height:100px;
+   padding: 5px;
+   border:red 5px solid;
+   box-sizing:border-box; */
+   display:inline;
+
+
+}
+.main{
+    background-color: blue;
+    height: 20vh;
+    width:100%;
+    display:inline;
+}
+a{
+    height: 100px;
+    display: inline-block;
+}
