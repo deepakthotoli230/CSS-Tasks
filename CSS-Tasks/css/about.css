@@ -1,0 +1,78 @@
+*{
+    
+    color: blue;
+}
+
+button[type]{
+    width:100px;
+    height:50px;
+}
+input[type="text"]{
+    color: black;
+    font-size: 30px;
+}
+a[href^="https"]{
+    color: aquamarine;
+    font-size: 40px;
+}
+a[href$= '.in']{
+    color: black;
+    font-size: 25px;
+}
+a[href="Google"]{
+    color: blue;
+}
+div p{
+    text-align: center;
+    color: black;
+    text-indent: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+div>p{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+h1+p{
+    font-size: 20px;
+    color: brown;
+    text-decoration-line: underline;
+    text-decoration-color:rebeccapurple ;
+}
+
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: blueviolet;
+    font-variant: small-caps;
+}
+.first{
+    font-family: serif;
+    font-style: oblique;
+    text-decoration-line: none;
+
+}
+.second{
+   /* font-family: monospace;
+    
+    font-weight: bold;*/
+    color: darkgreen;
+    font: bold small-caps 20px serif;
+}
+.third{
+    font-family: cursive;
+    color: chocolate;
+    font-size: 30px;
+}
+.fourth{
+    font-family: fantasy;
+    color: chartreuse;
+}
+
+
+
+    

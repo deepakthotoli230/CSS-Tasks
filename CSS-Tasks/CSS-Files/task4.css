@@ -1,0 +1,78 @@
+@keyframes orbit {
+
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Html-files/download\ \(7\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.solar-system {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.orbit {
+    width: 1500px;
+    height: 1500px;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    animation: orbit 10s linear infinite;
+}
+
+.earth {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+
+    top: -35px;
+    left: 50%;
+
+    transform: translateX(50%);
+}

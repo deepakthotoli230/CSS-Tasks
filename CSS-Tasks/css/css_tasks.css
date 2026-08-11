@@ -1,0 +1,81 @@
+.head{
+     text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #888888;
+}
+.artic{
+    text-align: justify;
+    text-indent: 40px;
+    line-height:2;
+}
+.home-link{
+    text-decoration: none;
+}
+.about-link{
+    text-decoration: underline;
+}
+.tel-link{
+    text-decoration:line-through
+}
+.H3{
+    text-spacing: 5px;
+    word-spacing: 15px;
+    font-weight: bold;
+}
+.para1{
+    text-align:right;
+    text-transform: lowercase;
+    line-height: 30px;
+}
+.p1{
+    font-family: Arial;
+}
+.p2{
+    font-family: Georgia;
+}
+.p3{
+    font-family: Courier;
+}
+.h1{
+    font-size:18px
+}
+.h2{
+    font-size: 24px;
+}
+.h3{
+    font-size: 36px;
+}
+.h4{
+    font-size: 40px;
+}
+.P1{
+    font-weight: normal;
+}
+.P2{
+    font-weight: bold;
+}
+.P3{
+    font-weight: bolder;
+}
+.P4{
+    font-weight: 700;
+}
+.Para1{
+    font-style: normal;
+}
+.para2{
+    font-style:italic
+}
+.para3{
+    font-style:oblique;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+h1, p{
+    font-family:'poppins', sans-serif;
+}
+.name{
+    font-size: 42px;
+    font-weight:bold;
+    font-family:Arial;
+    letter-spacing: 3px;
+}
