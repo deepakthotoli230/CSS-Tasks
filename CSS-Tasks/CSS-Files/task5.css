@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #354158;
+}
+.logo {
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+}
+span{
+    color: goldenrod;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Norse", sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 75px;
+
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    margin-left: auto;
+}
+nav a{
+    color: #354158;
+    text-decoration: none;
+    font-size: 45px;
+}
+nav a:hover{
+    color: blue;
+}
+.moon{
+    background-color: transparent;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+}
+.moon:hover{
+    color: orange;
+}
+.start{
+    font-size: 43px;
+    background-color: green;
+    border-radius: 30px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+.hero {
+    margin-top: 350px;
+    width: 100%;
+    text-align: center;
+    word-spacing: 30px;
+}
+.hero h1 .a {
+    margin-top: 20px;
+    font-size: 150px;
+    color: #000000;
+}
+.hero h1 p{
+    margin-top: 0px;
+    font-size: 150px;
+    color: #000000;
+    
+}
+.hero .gold {
+    font-size: 150px;
+    line-height: 1.45;
+    color: goldenrod;
+}
+p{
+    font-size: 50px;
+    word-spacing: normal;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #354158;
+}
+
+.cariculam {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 180px;    
+    padding: 12px 30px;
+    background: white;
+    border: 1px solid #cfd5dc;
+    border-radius: 20px;
+    color: black;
+    font-size: 70px;
+    cursor: pointer;
+}
+.cariculum:hover {
+    background: #f7f7f7;
+}
+img{
+    margin-top: 100px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
