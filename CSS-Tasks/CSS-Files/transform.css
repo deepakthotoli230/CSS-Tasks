@@ -30,3 +30,7 @@ img{
     transition-timing-function: linear ;
 
 } */
+ p{
+    font-size: 90px;
+    font-weight: bold;
+ }
